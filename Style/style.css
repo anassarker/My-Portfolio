@@ -1,0 +1,165 @@
+* {
+  /* background-color: rgb(253, 255, 254); */
+  padding: 0px;
+  margin: 0%;
+  font-family: 'Permanent Marker', cursive;
+}
+.top-place {
+    background-image: url("../imgs/top-banner.png");
+    background-repeat: no-repeat;
+    display: flex;
+}
+.profile-info img{
+  width: 100%;
+  object-fit: contain;
+}
+.profile-info{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  align-items: center;
+
+}
+.profile-info p{
+  padding-top: 10px;
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
+}
+.position h1{
+  font-size: 50px;
+}
+.position h1 span{
+  font-size: 30px;
+  color: rgb(79, 80, 4);
+}
+.position h2 span{
+  font-size: 40px;
+  color: darkkhaki;
+}
+.position h2{
+  font-size: 30px;
+}
+.position button{
+  margin-top: 5px;
+  font-size: 20px;
+  padding-bottom: 2px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  
+}
+.position button:hover{
+  background-color: rgb(18, 245, 215);
+  transition: .5s ease;
+  cursor: pointer;
+  opacity: 1;
+  transform: translate(0);
+}
+button a{
+  text-decoration: none;
+  color: brown;
+}
+.profile-image {
+  width: 100%;
+  height: 100%;
+  
+}
+.profile-info h1 {
+  color: rgb(228, 140, 128);
+}
+.profile-info h3{
+  padding-top: 10px;
+}
+.profile-image img {
+  width: 100%;
+  height: 100vh;
+}
+.middle-order img{
+  margin-top: 50px;
+  padding-top: 300px;
+  margin-left: 1230px;
+  
+}
+.text{
+  margin-top: -500px;
+  margin-left: 700px;
+}
+.text p{
+  margin-left: 20px;
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
+}
+.text h1{
+  text-align: start;
+  margin-left: 20px;
+}
+.text button{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border: none;
+  color: red;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  
+}
+.text button:hover{
+  background-color: lightslategrey;
+  cursor: pointer;
+  opacity: 1;
+  transition: .5s;
+}
+.text a{
+  text-decoration: none;
+}
+.experience-section .experience-img{
+  margin-top: 350px;
+  margin-left: -1230px;
+  margin-bottom: -10px;
+}
+.card-info{
+  margin-top: -450px;
+  display: flex;
+}
+.card-info h1{
+  font-size: 40px;
+}
+.card-menu{
+  margin-left: -70px;
+  margin-top: 80px;
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.card-learner{
+  box-shadow: 10px 10px 10px red;
+  transition: .5s;
+  border: 10px;
+  height:200px;
+  width: 500px;
+}
+
+.card-pro{
+  box-shadow: 10px 10px 10px blue;
+  border-radius: 5px;
+  height: 200px;
+  width: 500px; 
+  border: 10px;
+}
+footer{
+  padding: 50px;
+  margin-top: 300px;
+  color: rgb(234, 236, 241);
+  background-color: rgb(77, 81, 83);
+  text-align: center;
+}
+footer p{
+  font-family: 'Josefin Sans', sans-serif;
+}
+footer h1{
+  font-family: 'Josefin Sans', sans-serif;
+}
